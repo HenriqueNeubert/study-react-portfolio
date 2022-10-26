@@ -1,6 +1,6 @@
 import '../styles/components/maincontent.sass'
 import AboutContainer from './AboutContainer'
-import TecnologiesContainer from './TecnologiesContainer'
+import TechnologiesContainer from './TechnologiesContainer'
 import ProjectContainer from './ProjectContainer'
 import React from 'react'
 
@@ -8,7 +8,7 @@ const MainContent = () => {
   return (
     <main id='main-content'>
       <AboutContainer />
-      <TecnologiesContainer />
+      <TechnologiesContainer />
       <ProjectContainer />
     </main>
   )
